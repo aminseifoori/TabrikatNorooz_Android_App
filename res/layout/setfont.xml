@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9c9ceb" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical" >
+
+        <RadioButton
+            android:id="@+id/radiohoma"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="فونت هما" />
+
+        <RadioButton
+            android:id="@+id/radiokoodak"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="فونت کودک" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btncancelfont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/radioGroup1"
+        android:text="انصراف" />
+
+    <Button
+        android:id="@+id/btnsavefont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btncancelfont"
+        android:layout_alignBottom="@+id/btncancelfont"
+        android:layout_alignParentRight="true"
+        android:text="ذخیره" />
+
+</RelativeLayout>

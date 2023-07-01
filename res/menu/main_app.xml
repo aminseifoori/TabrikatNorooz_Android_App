@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+        <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/exit"
+        android:title="Exit"/>
+    
+<item 
+      android:icon="@drawable/menu"
+      android:orderInCategory="100" 
+      android:showAsAction="always">
+    <menu>
+        <item android:id="@+id/selfonts" android:title="تغییر فونت نوشتار" />
+        <item android:id="@+id/ourproduct" android:title="محصولات ما" />
+        <item android:id="@+id/rating" android:title="امتیاز به برنامه" />  
+        <item android:id="@+id/gotomsg" android:title="رفتن به پیام شماره..." />      
+    </menu>
+</item>
+
+
+</menu>

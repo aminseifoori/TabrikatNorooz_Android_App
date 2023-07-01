@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">تبریک نوروزی</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">به اشتراک گذاری پیام تبریک</string>
+    <string name="title_activity_main_app">سال نو مبارک</string>
+</resources>
